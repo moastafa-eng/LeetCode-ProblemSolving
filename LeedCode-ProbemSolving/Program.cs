@@ -1,6 +1,7 @@
 ﻿using LeetCode_ProblemSolving.Problem_3;
 using LeetCode_ProblemSolving.Problem_1;
 using LeetCode_ProblemSolving.Problem_2;
+using LeetCode_ProblemSolving.Problem_4;
 
 namespace LeetCode_ProblemSolving
 {
@@ -24,11 +25,19 @@ namespace LeetCode_ProblemSolving
             //} 
             #endregion
 
-            #region Valid Parentheses
+            #region 3.Valid Parentheses
 
             //Valid_Parentheses validParentheses = new();
 
             //Console.WriteLine(validParentheses.IsValid("[((})]")); 
+            #endregion
+
+            #region 4.Remove Duplicates from Sorted Array
+
+            //Remove_Duplicates_from_Sorted_Array remove_Duplicates_from_Sorted_Array = new();
+            //int[] nums = { 1, 1, 2 };
+
+            //Console.WriteLine(remove_Duplicates_from_Sorted_Array.RemoveDuplicates(nums)); 
             #endregion
         }
 
