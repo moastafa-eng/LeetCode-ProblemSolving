@@ -11,7 +11,6 @@
                 if (nums[number] != nums[i])
                 {
                     nums[++number] = nums[i];
-                    break;
                 }
             }
 

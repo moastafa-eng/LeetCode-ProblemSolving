@@ -2,6 +2,7 @@
 using LeetCode_ProblemSolving.Problem_1;
 using LeetCode_ProblemSolving.Problem_2;
 using LeetCode_ProblemSolving.Problem_4;
+using LeetCode_ProblemSolving.Problem_5;
 
 namespace LeetCode_ProblemSolving
 {
@@ -39,6 +40,14 @@ namespace LeetCode_ProblemSolving
 
             //Console.WriteLine(remove_Duplicates_from_Sorted_Array.RemoveDuplicates(nums)); 
             #endregion
+
+            #region 5.Remove Element
+            //Remove_Element removeElement = new();
+            //int[] nums = { 3, 2, 2, 3 };
+
+            //Console.WriteLine(removeElement.RemoveElement(nums, 3)); 
+            #endregion
+
         }
 
     }
