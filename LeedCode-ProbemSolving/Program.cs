@@ -3,6 +3,7 @@ using LeetCode_ProblemSolving.Problem_1;
 using LeetCode_ProblemSolving.Problem_2;
 using LeetCode_ProblemSolving.Problem_4;
 using LeetCode_ProblemSolving.Problem_5;
+using LeetCode_ProblemSolving.Problem_6;
 
 namespace LeetCode_ProblemSolving
 {
@@ -47,6 +48,14 @@ namespace LeetCode_ProblemSolving
 
             //Console.WriteLine(removeElement.RemoveElement(nums, 3)); 
             #endregion
+
+            #region 6.Search Insert Position
+            //Search_Insert_Position searchInsertPosition = new();
+            //int[] nums = { 2, 3, 4, 7, 8, 9 };
+
+            //Console.WriteLine(searchInsertPosition.SearchInsert(nums, 11)); 
+            #endregion
+
 
         }
 
