@@ -5,6 +5,7 @@ using LeetCode_ProblemSolving.Problem_4;
 using LeetCode_ProblemSolving.Problem_5;
 using LeetCode_ProblemSolving.Problem_6;
 using LeetCode_ProblemSolving.Problem_7;
+using LeetCode_ProblemSolving.Problem_8;
 
 namespace LeetCode_ProblemSolving
 {
@@ -57,10 +58,19 @@ namespace LeetCode_ProblemSolving
             //Console.WriteLine(searchInsertPosition.SearchInsert(nums, 11)); 
             #endregion
 
-            Plus_One plusOne = new();
-            int[] digits = { 1,2,3};
+            #region 7.Plus One
+            //Plus_One plusOne = new();
+            //int[] digits = { 1,2,3};
 
-            plusOne.PlusOne(digits);
+            //plusOne.PlusOne(digits); 
+            #endregion
+
+            Merge_Sorted_Array mergeSortedArray = new();
+            int[] nums1 = { 4, 0, 0, 0, 0, 0 };
+            int[] nums2 = { 1, 2, 3, 5, 6 };
+            int m = 1;
+            int n = 5;
+            mergeSortedArray.Merge(nums1, m, nums2, n);
 
         }
 

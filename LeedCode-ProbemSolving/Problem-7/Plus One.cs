@@ -18,6 +18,7 @@
             int[] result = new int[digits.Length + 1];
             result[0] = 1;
 
+
             return result;
         }
 
