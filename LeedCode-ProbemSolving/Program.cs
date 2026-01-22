@@ -4,6 +4,7 @@ using LeetCode_ProblemSolving.Problem_2;
 using LeetCode_ProblemSolving.Problem_4;
 using LeetCode_ProblemSolving.Problem_5;
 using LeetCode_ProblemSolving.Problem_6;
+using LeetCode_ProblemSolving.Problem_7;
 
 namespace LeetCode_ProblemSolving
 {
@@ -56,6 +57,10 @@ namespace LeetCode_ProblemSolving
             //Console.WriteLine(searchInsertPosition.SearchInsert(nums, 11)); 
             #endregion
 
+            Plus_One plusOne = new();
+            int[] digits = { 1,2,3};
+
+            plusOne.PlusOne(digits);
 
         }
 
