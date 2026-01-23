@@ -7,6 +7,7 @@ using LeetCode_ProblemSolving.Problem_6;
 using LeetCode_ProblemSolving.Problem_7;
 using LeetCode_ProblemSolving.Problem_8;
 using LeetCode_ProblemSolving.Problem_9;
+using LeetCode_ProblemSolving.Problem_10;
 
 namespace LeetCode_ProblemSolving
 {
@@ -75,10 +76,15 @@ namespace LeetCode_ProblemSolving
             //mergeSortedArray.Merge(nums1, m, nums2, n); 
             #endregion
 
-            Pascal_s_Triangle pascals = new();
+            #region 9.Pascal's Triangle
+            //Pascal_s_Triangle pascals = new();
 
-            pascals.Generate(5);
+            //pascals.Generate(5); 
+            #endregion
 
+            Pascal_s_Triangle2 pascals = new();
+
+            pascals.GetRow(0);
         }
 
     }
