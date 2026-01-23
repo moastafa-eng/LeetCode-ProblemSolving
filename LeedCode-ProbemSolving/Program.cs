@@ -6,6 +6,7 @@ using LeetCode_ProblemSolving.Problem_5;
 using LeetCode_ProblemSolving.Problem_6;
 using LeetCode_ProblemSolving.Problem_7;
 using LeetCode_ProblemSolving.Problem_8;
+using LeetCode_ProblemSolving.Problem_9;
 
 namespace LeetCode_ProblemSolving
 {
@@ -65,12 +66,18 @@ namespace LeetCode_ProblemSolving
             //plusOne.PlusOne(digits); 
             #endregion
 
-            Merge_Sorted_Array mergeSortedArray = new();
-            int[] nums1 = { 4, 0, 0, 0, 0, 0 };
-            int[] nums2 = { 1, 2, 3, 5, 6 };
-            int m = 1;
-            int n = 5;
-            mergeSortedArray.Merge(nums1, m, nums2, n);
+            #region 8.Merge Sorted Array
+            //Merge_Sorted_Array mergeSortedArray = new();
+            //int[] nums1 = { 4, 0, 0, 0, 0, 0 };
+            //int[] nums2 = { 1, 2, 3, 5, 6 };
+            //int m = 1;
+            //int n = 5;
+            //mergeSortedArray.Merge(nums1, m, nums2, n); 
+            #endregion
+
+            Pascal_s_Triangle pascals = new();
+
+            pascals.Generate(5);
 
         }
 
