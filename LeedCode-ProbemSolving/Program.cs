@@ -8,6 +8,7 @@ using LeetCode_ProblemSolving.Problem_7;
 using LeetCode_ProblemSolving.Problem_8;
 using LeetCode_ProblemSolving.Problem_9;
 using LeetCode_ProblemSolving.Problem_10;
+using LeetCode_ProblemSolving.easy_problems.Problem___11;
 
 namespace LeetCode_ProblemSolving
 {
@@ -82,9 +83,19 @@ namespace LeetCode_ProblemSolving
             //pascals.Generate(5); 
             #endregion
 
-            Pascal_s_Triangle2 pascals = new();
+            #region 10.Pascal's Triangle 2
+            //Pascal_s_Triangle2 pascals = new();
 
-            pascals.GetRow(0);
+            //pascals.GetRow(0); 
+            #endregion
+
+            #region 11.Best time to Buy and sell stock
+            //Best_Time_to_Buy_and_Sell_Stock maxProfit = new();
+            //int[] prices = { 3, 2, 6, 5, 0, 3 };
+
+            //maxProfit.MaxProfit(prices); 
+            #endregion
+
         }
 
     }
