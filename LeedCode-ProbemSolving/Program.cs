@@ -1,14 +1,15 @@
-﻿using LeetCode_ProblemSolving.Problem_3;
+﻿using LeetCode_ProblemSolving.easy_problems.Problem___11;
 using LeetCode_ProblemSolving.Problem_1;
+using LeetCode_ProblemSolving.Problem_10;
+using LeetCode_ProblemSolving.Problem_13;
 using LeetCode_ProblemSolving.Problem_2;
+using LeetCode_ProblemSolving.Problem_3;
 using LeetCode_ProblemSolving.Problem_4;
 using LeetCode_ProblemSolving.Problem_5;
 using LeetCode_ProblemSolving.Problem_6;
 using LeetCode_ProblemSolving.Problem_7;
 using LeetCode_ProblemSolving.Problem_8;
 using LeetCode_ProblemSolving.Problem_9;
-using LeetCode_ProblemSolving.Problem_10;
-using LeetCode_ProblemSolving.easy_problems.Problem___11;
 
 namespace LeetCode_ProblemSolving
 {
@@ -95,6 +96,11 @@ namespace LeetCode_ProblemSolving
 
             //maxProfit.MaxProfit(prices); 
             #endregion
+
+            Majority_Element magorityElements = new();
+            int[] nums = { 3, 2, 3 };
+            
+            magorityElements.MajorityElement()
 
         }
 
