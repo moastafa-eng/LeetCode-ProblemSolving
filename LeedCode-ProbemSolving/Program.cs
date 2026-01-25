@@ -1,4 +1,5 @@
 ﻿using LeetCode_ProblemSolving.easy_problems.Problem___11;
+using LeetCode_ProblemSolving.easy_problems.Problem_14;
 using LeetCode_ProblemSolving.Problem_1;
 using LeetCode_ProblemSolving.Problem_10;
 using LeetCode_ProblemSolving.Problem_13;
@@ -97,11 +98,18 @@ namespace LeetCode_ProblemSolving
             //maxProfit.MaxProfit(prices); 
             #endregion
 
-            Majority_Element magorityElements = new();
-            int[] nums = { 3, 2, 3 };
-            
-            magorityElements.MajorityElement()
+            #region 13.Majority Element
 
+            //Majority_Element magorityElements = new();
+            //int[] nums = { 3, 2, 3 };
+
+            //magorityElements.MajorityElement(nums); 
+            #endregion
+
+            Contains_Duplicate containsDuplicate = new();
+            int[] nums = { 1, 2, 3, 1 };
+
+            containsDuplicate.ContainsDuplicate(nums);
         }
 
     }
