@@ -3,6 +3,7 @@ using LeetCode_ProblemSolving.easy_problems.Problem_14;
 using LeetCode_ProblemSolving.Problem_1;
 using LeetCode_ProblemSolving.Problem_10;
 using LeetCode_ProblemSolving.Problem_13;
+using LeetCode_ProblemSolving.Problem_15;
 using LeetCode_ProblemSolving.Problem_2;
 using LeetCode_ProblemSolving.Problem_3;
 using LeetCode_ProblemSolving.Problem_4;
@@ -106,10 +107,22 @@ namespace LeetCode_ProblemSolving
             //magorityElements.MajorityElement(nums); 
             #endregion
 
-            Contains_Duplicate containsDuplicate = new();
-            int[] nums = { 1, 2, 3, 1 };
+            #region 14.Contains Duplicate
 
-            containsDuplicate.ContainsDuplicate(nums);
+            //Contains_Duplicate containsDuplicate = new();
+            //int[] nums = { 1, 2, 3, 1 };
+
+            //containsDuplicate.ContainsDuplicate(nums); 
+            #endregion
+
+            #region 15Contains Duplicate 2
+            //Contains_Duplicate2 containsDuplicate2 = new();
+            //int[] nums = {1, 2, 3, 1};
+
+            //containsDuplicate2.ContainsNearbyDuplicate(nums, 3); 
+            #endregion
+
+
         }
 
     }

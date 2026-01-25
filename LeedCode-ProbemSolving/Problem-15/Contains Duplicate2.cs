@@ -4,21 +4,21 @@
     {
         public bool ContainsNearbyDuplicate(int[] nums, int k)
         {
-            int I = 0;
-            int J = 0;
 
-            HashSet<int> hashSet = new();
+            // Sliding Window Technique.
+            var window = new HashSet<int>();
 
             for (int i = 0; i < nums.Length; i++)
             {
-                if (!hashSet.Add(nums[i]))
-                {
-                    J = i;
+                if (i > k)
+                    window.Remove(i - k - 1);
 
-                    
-                }
+                // if num[i] is exist in range k elements return true if not return false.
+                if (!window.Add(nums[i]))
+                    return true;
             }
-            
+
+            return false;
         }
     }
 }
