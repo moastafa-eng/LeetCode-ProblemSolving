@@ -4,6 +4,7 @@ using LeetCode_ProblemSolving.Problem_1;
 using LeetCode_ProblemSolving.Problem_10;
 using LeetCode_ProblemSolving.Problem_13;
 using LeetCode_ProblemSolving.Problem_15;
+using LeetCode_ProblemSolving.Problem_16;
 using LeetCode_ProblemSolving.Problem_2;
 using LeetCode_ProblemSolving.Problem_3;
 using LeetCode_ProblemSolving.Problem_4;
@@ -115,13 +116,21 @@ namespace LeetCode_ProblemSolving
             //containsDuplicate.ContainsDuplicate(nums); 
             #endregion
 
-            #region 15Contains Duplicate 2
+            #region 15.Contains Duplicate 2
             //Contains_Duplicate2 containsDuplicate2 = new();
             //int[] nums = {1, 2, 3, 1};
 
             //containsDuplicate2.ContainsNearbyDuplicate(nums, 3); 
             #endregion
 
+            #region 16.Summary Ranges
+            //Summary_Ranges summaryRanges = new();
+            //int[] nums = { -1, 0, 2, 9 };
+
+            //summaryRanges.SummaryRanges(nums); 
+            #endregion
+
+            
 
         }
 

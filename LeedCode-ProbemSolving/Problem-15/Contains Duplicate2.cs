@@ -11,7 +11,7 @@
             for (int i = 0; i < nums.Length; i++)
             {
                 if (i > k)
-                    window.Remove(i - k - 1);
+                    window.Remove(nums[i - k - 1]);
 
                 // if num[i] is exist in range k elements return true if not return false.
                 if (!window.Add(nums[i]))
