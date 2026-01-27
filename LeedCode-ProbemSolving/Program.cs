@@ -5,6 +5,7 @@ using LeetCode_ProblemSolving.Problem_10;
 using LeetCode_ProblemSolving.Problem_13;
 using LeetCode_ProblemSolving.Problem_15;
 using LeetCode_ProblemSolving.Problem_16;
+using LeetCode_ProblemSolving.Problem_17;
 using LeetCode_ProblemSolving.Problem_2;
 using LeetCode_ProblemSolving.Problem_3;
 using LeetCode_ProblemSolving.Problem_4;
@@ -130,7 +131,13 @@ namespace LeetCode_ProblemSolving
             //summaryRanges.SummaryRanges(nums); 
             #endregion
 
-            
+            #region 17.Move Zeroes
+
+            //Move_Zeroes moveZeroes = new();
+            //int[] nums = { 1, 2, 0, 3, 4 };
+
+            //moveZeroes.MoveZeroes(nums); 
+            #endregion
 
         }
 
